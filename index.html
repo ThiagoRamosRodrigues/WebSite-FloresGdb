@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 <head>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid">
-   </head>
-   
-   <body>
-      <!--
-      <img src="Sem título.png" alt=""> 
---> <footer>
-       <nav id="menu-h">
-            <form>
-                <div id="carrinho"
-                 ><buttom id="carrinho"></buttom></div>
-            Busque seu presente: <input type="text" placeholder="Pesquisar">
-            <i class="fa-solid fa-magnifying-glass"></i><br> 
-            </form>
+    <meta charset="UTF-8">
+    <title>TELA LOGIN</title>
+    <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+    <nav id="menu-h">
+       <ul>
+           <li><a href="home.html">Página Incial</a></li>                        
+           <li><a href="loginAdm.html">Administrador</a></li>
+       </ul>
+       
+   </nav>
 
-           <ul>
-               <li><a href="#">Carrinho</a></li>             
-               <li><a href="#">Presentes</a></li>              
-               <li><a href="#">Cestos</a></li>               
-               <li><a href="">Buquês</a></li> 
-               <li><a href="#">Arranjos</a></li>
-               <li><a href="#">Tipos de flores</a></li>             
-               <li><a href="login.html">LOGIN</a></li>
-           </ul>
-           
-       </nav>
-       <div class="img-container"> 
-        <img src="logoflores.png" alt="Logo">
-       </div>
-       <p>Maior rede de flores online de Pernambuco. Simples, rápido e sempre pra hoje.</p>
-        
-       <div class="galery-container">
-         
-            <div class="filho">
-
-                <h1>Conheça nossos produtos</h1>
-
-                 <div class="neto">
-                    <table>
-                      <tr>
-                        <a href="Sem título.png" class="image"><img src="Sem título1.png" alt=""></a>
-                        <a href="Sem título1.png"class="image"><img src="Sem título2.png" alt=""></a> 
-                        <a href="Sem título3.png"class="image"><img src="Sem título3.png" alt=""></a> 
-                        <a href="Sem título4.png"class="image"><img src="Sem título4.png" alt=""></a>
-                        <a href="Sem tífftulo.png"class="image"><img src="Sem título4.png" alt=""></a>
-                        <a href="Sem título4.png"class="image"><img src="Sem título5.png" alt=""></a>
-                        <a href="Sem títulopppp.png"class="image"><img src="Sem título6.png" alt=""></a>
-                        <a href="Sem títulçççço.png"class="image"><img src="Sem título7.png" alt=""></a>
-                        <a href="Sem título4.png"class="image"><img src="Sem título8.png" alt=""></a>
-                        <a href="Sem título4.png"class="image"><img src="Sem título11.png" alt=""></a>
-                    </tr>
-                  </table>  
-                </div>
-            </div>
-          
-         </div>
-
-            <p><em>Confira as cidades atendidas<br>
-                  Termos de uso • Devoluções e reembolso • SAC<br>
-                POLÍTICA DE PRIVACIDADE • POLÍTICA DE COOKIES • CORPORATIVO</em></p>
-     </footer>
+    <!-- criando nosso container-->
+    <div class="container">
+        <!-- criando nosso formulario dentro do container-->
+        <form>
+            <!-- adicionando a nossa logo-->
+            <img src="logo-menor-final.png" alt="logo.site">
+            <!-- representa uma legenda para um item em uma interface de usuário. Ele pode estar associado a um elemento de controle, colocando-o dentro do elemento, aqui criamos a legenda Email-->
+            <label for="email">Email:</label>
+            <!-- criando a entrada para o email-->
+            <input type="text" id="email" name="email">
+            <!-- criando a legenda senha-->
+            <label for="password">Senha:</label>
+            <!-- criando a entrada para senha-->
+            <input type="password" id="password" name="password">
+            <!-- criando nosso botão entrar-->
+            <button type="submit"><a href="home.html">Entrar</a></button>
+            <!-- criando nosso 'link' esqueceu a senha para caso o usuario tenha esquecido a mesma.-->
+            <a class="esquecersenha" href="#">Esqueceu a senha?</a>
+            <!-- criando o botão entrar com google-->
+            <button type="submit">Entrar com Google</button>
+            <!-- criando nosso botão para criação de uma nova conta-->
+            <button type="submit2">Criar nova conta</button>
+        </form>
+    </div>
 </body>
-   
 </html>

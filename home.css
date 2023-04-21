@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+background-color: rgb(10, 10, 10);
+height: 82px;
+}
+
+#menu-h ul {
+max-width: 1900px;
+list-style: none;
+padding: 0;
+}
+
+#menu-h ul li {
+display: inline;
+}
+
+#menu-h ul li a {
+color: #FFF;
+padding: 17px;
+display: inline-block;
+text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+background-color: #E6B00A;
+}
+
+#menu-h ul li:last-child a {
+float: right;
+background-color: #E6B00A;
+
+}
+#menu-h li:last-child a{
+float: right;
+background-color: rgb(10, 10, 10);
+}
+
+#menu-h form{
+    border: none;
+    padding: 2px;
+    color:  rgb(87, 84, 84);
+}
+div button{
+    border: none;
+    padding: 5px;
+    color: #E6B00A; 
+}
+
+.img-container{
+    text-align: center;
+    color: rgb(37, 37, 39);
+    
+}
+p{
+text-align: center;
+font-size: 16px;
+color: rgb(7, 7, 7);
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.galery-container{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.filho{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px 20px;
+}
+.galery-container h1{
+    font-size: 4vw;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(8, 8, 8);
+}
+.galery-container .neto a{
+    padding: 10px;
+}
+.galery-container .neto{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+}
+.galery-container .image{
+    flex: 13.9%;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.galery-container .image img{
+    width: 90%;
+    height: 90%;
+    transition: 0.4s;
+    border-radius: 3px;
+}
+.galery-container .image:hover img{
+   transform: scale(0.9);
+
+}
+@media screen and (max-width:200px){
+    .galery-container .image{
+        flex: 12%;
+    }
+}
+@media screen and (max-width:200px){
+    .galery-container .image{
+        flex: 20%;
+    }
+}
+.galery-container h1{
+    font-size: 50px;
+}
+@media screen and (max-width:600px){
+    .galery-container .image{
+        flex: 50%;
+    }
+}
+.produtos{
+    display:flex;
+    justify-content: space-around;
+}
+.produto{
+    border: 1px solid rgb(0, 0, 0);
+}
+.protudo p{
+    background: rgb(238, 141, 141);
+    font-family: arial;
+    padding: 5px 10px;
+    color: black;
+
+}
+.neto button{
+    border-bottom: #FFF;
+    padding: 2px;
+    color: rgb(45, 141, 141);
+    
+    
+
+}
